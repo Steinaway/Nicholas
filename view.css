@@ -1,0 +1,106 @@
+html {
+	width:100%;
+	overflow-x:hidden;
+}
+
+body {
+	display:block;
+	background:white;
+	font-family: Georgia;
+}
+
+header {
+	display: block;
+	width: 100%;
+}
+#lo {
+	position: absolute;
+	margin-left: 100px;
+	font-size: 72px;
+	font-weight: 900;
+	color:white;
+	padding:10px;
+	border: 10px solid white;
+}
+.App {
+	display:block;
+}
+.active {
+	display:block;
+}
+.content.visually-hidden {
+	display:none;
+}
+#navigator ul {
+	margin-left: -40px;
+	width: 100%;
+}
+#navigator ul li {
+	margin-left: -1px;
+	margin-right: 0;
+	margin-top: -1px;
+	display:inline-block;
+	width:25%;
+	float:left;
+	list-style-type: none;
+}
+button {
+	width:115%;
+	height: 5em;
+	display: block;
+	margin-right:10px;
+	padding-right:50px;
+	padding-left: 20px;
+	font-size: 1em;
+	font-family: Georgia;
+	font-weight: 900;
+	color:#8AB8E6;
+	background: #D6EBFF;
+	outline: 0;
+	opacity: 0.98;
+	border:0;
+}
+
+hr {
+	width:110%;
+	margin-left: -10px;
+	margin-right: -10px;
+	color:#A3A385;
+	display: block;
+	opacity: 0.9;
+}
+
+
+.content {
+	background: white;
+	width: 101%;
+	margin: -15px -10px -10px -10px;
+	padding: 150px 130px 20px 10px;
+	font-size:1em;
+	font-family: Georgia;
+	color:#A3A385;
+}
+
+img {
+	margin-left: -10px;
+	margin-top: -10px;
+	margin-bottom: -19px;
+}
+.apples.nav {
+	margin-left: -10px;
+}
+.mangos.nav {
+	margin-right: 100px;
+}
+.kiwi.nav {
+	margin-right: -10px;
+}
+.activeNav {
+	background: white;
+}
+
+footer ul li {
+	display:inline-block;
+	list-style-type: none;
+	margin:20px;
+}
